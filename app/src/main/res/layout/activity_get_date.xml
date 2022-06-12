@@ -11,7 +11,7 @@
         android:id="@+id/textTitle1"
         android:layout_width="350dp"
         android:layout_height="59dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="50dp"
         android:fontFamily="@font/caudex"
         android:text="@string/horoscope"
         android:textAlignment="center"
@@ -22,7 +22,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.065" />
 
     <TextView
         android:id="@+id/textSubtitle1"
@@ -45,16 +45,18 @@
         android:id="@+id/buttonGet"
         android:layout_width="250dp"
         android:layout_height="60dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginBottom="50dp"
         android:backgroundTint="@color/text"
         android:fontFamily="@font/caudex"
         android:text="@string/get"
         android:textColor="@color/title"
         android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textYear" />
+        app:layout_constraintTop_toBottomOf="@+id/textYear"
+        app:layout_constraintVertical_bias="1.0" />
 
     <TextView
         android:id="@+id/textMonth"
@@ -74,11 +76,11 @@
         android:id="@+id/textDay"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/caudex"
         android:text="@string/day"
         android:textColor="@color/text"
         android:textSize="20sp"
-        android:fontFamily="@font/caudex"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.19"
         app:layout_constraintStart_toStartOf="parent"
@@ -89,7 +91,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="15dp"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="30dp"
         android:layout_marginEnd="60dp"
         android:ems="10"
         android:hint="DD"
